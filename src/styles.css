@@ -1,0 +1,38 @@
+.my-header{
+background-color: #F99Faa !important;
+height: 40px !important;
+
+}
+
+.my-header a {color: white !important;
+padding-top: 50px !important;
+position: relative !important;
+}
+
+.my-navbar a {
+    text-decoration: black !important;
+    font-weight: bolder !important;
+    text-shadow: beige !important;
+    
+
+}
+
+h3 { color: #F99Faa !important;
+     text-emphasis: none !important;;
+     font-weight: bold !important;
+     font-style: normal !important;
+     font-size: 20px !important;
+     font-family:'Montserrat', sans-serif !important;
+     font-family:'Hepta Slab', serif !important;
+
+
+
+}
+
+.jumbotron p {font-family: 'Hepta Slab', serif !important;
+    font-family: 'Lexend Tera', sans-serif !important;
+    font-size: 15px; 
+
+
+
+}
