@@ -1,0 +1,38 @@
+.centered {
+    position: absolute !important;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%) !important;
+    display: inline-block;
+    font-size: smaller !important;
+}
+
+.rock {
+    background-image: url("images/pic5.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    opacity: 1 !important;
+    
+
+}
+.h1 {
+    font-family: 'Livvic', sans-serif !important;
+    font-size: medium !important;
+
+}
+
+.lead {
+    font-family: 'Livvic', sans-serif !important;
+    font-size: smaller !important;
+
+}
+
+#top-nav {background-color: #F99;
+    padding: 5px;
+
+}
+
+#top-nav p {
+    color: #fff;
+    margin: 5px 0 0 150px;
+}
