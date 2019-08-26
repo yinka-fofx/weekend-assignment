@@ -4,6 +4,18 @@ height: 40px !important;
 
 }
 
+
+#top-nav {background-color: #F99 !important;
+    padding: 5px !important;
+
+}
+
+#top-nav p {
+    color: #fff !important;;
+    margin: 5px 0 0 150px !important;
+}
+
+
 .my-header a {color: white !important;
 padding-top: 50px !important;
 position: relative !important;
@@ -22,7 +34,7 @@ h3 { color: #F99Faa !important;
      text-emphasis: none !important;;
      font-weight: bold !important;
      font-style: normal !important;
-     font-size: 20px !important;
+     font-size: px !important;
      font-family:'Montserrat', sans-serif !important;
      font-family:'Hepta Slab', serif !important;
 
@@ -125,6 +137,12 @@ h5.card-title {
 
 }
 
+.my-btn {
+    float: right !important;
+    margin-top: 20px !important;
+    margin-right: 400px !important;
+}
+
 h3 {
     font-size: medium !important;
     
@@ -221,3 +239,15 @@ font-weight: normal !important;
         padding: px;
     }
     
+.ml-5
+
+    {font-size: larger !important;
+
+    
+
+}
+
+.mar-body {
+font-size: medium !important;
+
+}

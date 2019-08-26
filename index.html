@@ -21,110 +21,60 @@
 </head>
 
 <body>
-    <!--Header top-->
-    <div class="container">
-    <div class="Top-nav">
-        <div class="container-fluid my-header bg-warning">
-            <div class="row">
-                <div class="text-center col-sm-8">
-                    <a href="#">SUBSCRIBE TO OUR NEWS LETTER</a>
+    <div class="container-fluid">
+        <div id="top-nav" class="row">
+                <div class="col-sm-8 p-2">
+                    <p class="text-center">SUBSCRIBE TO OUR NEWS LETTER</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 ">
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Email here.."
-                            aria-label="Search">
-                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Submit</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Email here..." aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 text-white" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <!--Navbar-->
-    <div class="row">
-        <div class="col-sm-12">
-            <nav class="navbar my-navbar navbar-expand navbar-light bg-light p-3 ">
-                <a class = "navbar-brand" href="#">BigScreen</a>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto text-right ">
-                        <li class="nav-item active">
-                            <a class="nav-link mr-3 active" href="#index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mr-3 ">
-                            <a class="nav-link" href="aboutus.html">About</a>
-                        </li>
-                        <li class="nav-item mr-3">
-                            <a class="nav-link" href="contactus.html">Contact</a>
-                        </li>
-                        <li class="nav-item mr-3">
-                            <a class="nav-link" href="#">Courses</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="row">
+                
+                <div class="col-sm-12 p-0 mt-0 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+                        <a class="navbar-brand" href="#">BigScreen</a>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link mr-3 active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3 active" href="aboutus.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3 active" href="contactus.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3 active" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mr-3 active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Staff
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Internal staff</a>
-                                <a class="dropdown-item" href="#">External stuff</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Other staff</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mr-3" href="#">Admission <span class="badge badge-pill my-badge" > NEW</span</a>
-                            
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mr-3" href="#"></a>
-                        </li>
-                    </ul>
-            
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3 active" href="#">Admission<span class="badge badge-pill my-badge">new</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-3 active" href="#">Blog</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
-    </div>
     
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button> -->
-
-        
-                <!-- <li class="nav-item">
-                    <a class="nav-link mr-3" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-3" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-3" href="#">Courses</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Staff
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Internal staff</a>
-                        <a class="dropdown-item" href="#">External stuff</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Other staff</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Admission <div class="badge badge-dark text-wrap" style="width: 2rem; font-size: small;">
-                            NEW
-                          </div></a>
-                    
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-
-            </ul> -->
-
-        </div>
     
 
     <!---Carousel-->
@@ -158,82 +108,75 @@
             </a>
         </div>
         <br><br>
-        <h3>Welcome to Marina University</h3>
-        <p class="text-center text-left">
+        <h3 class="ml-5">Welcome to Marina University</h3>
+        <p class="mar-body text-left ml-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.
+            <a class="btn btn-outline-secondary my-btn btn-lg align-right" href="#" role="button">Learn more</a>
             
         </p>
-        <a class="btn btn-outline-secondary btn-sm align-left" href="#" role="button">Learn more</a>
+        
     <!-- </div> -->
     </div>
 
     
     <!--Cards-->
-
-    <div class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card-center">
-                        <img src="src/images/medical-kit.png" class="card-img-top" alt="..">
-                        <div class="card-body">
-                            <h5 class="card-title">Safety first</h5>
-                            <p class="card-text my-lorem">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore.
-                            </p>
-                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card-center">
-                        <img src="src/images/notebook.png" class="card-img-top" alt="..">
-                        <div class="card-body">
-                            <h5 class="card-title">Regular classes</h5>
-                            <p class="card-text ">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore.
-                            </p>
-                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card-center">
-                        <img src="src/images/quality.png" class="card-img-top" alt="..">
-                        <div class="card-body">
-                            <h5 class="card-title">Certified teachers</h5>
-                            <p class="card-text text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore.
-                            </p>
-                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card-center">
-                        <img src="src/images/trophy.png" class="card-img-top" alt="..">
-                        <div class="card-body">
-                            <h5 class="card-title">Sport facilities</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore.
-                            </p>
-                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">Learn more</a>
-                        </div>
-                    </div>
-                </div>
+    
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card-body">
+                <img src="" class="card-img-top" alt="">
+                <!-- <div class="card-body"> -->
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
 
             </div>
+        
+        <div class="col-md-3">
+                <img src="src/images/medical-kit.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+
+                </div>
+            
         </div>
 
+
+        <div class="col-md-3">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+        </div> 
+                    
+        <div class="col-md-3">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
     </div>
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+    
         <!--Our courses-->
     <div class="text-center mt-4">
             <div class="container">
