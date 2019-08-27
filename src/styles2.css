@@ -23,8 +23,9 @@
 
 .lead {
     font-family: 'Livvic', sans-serif !important;
-    font-size: smaller !important;
-
+    font-size: medium !important;
+    color:white !important;
+    text-align: center
 }
 
 #top-nav {background-color: #F99;
@@ -35,4 +36,9 @@
 #top-nav p {
     color: #fff;
     margin: 5px 0 0 150px;
+}
+
+.lead-center {
+    text-align: center !important;
+    color: #fff !important;
 }
