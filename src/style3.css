@@ -1,3 +1,10 @@
+body {
+    font-family: 'Livvic', sans-serif !important;
+}
+
+
+
+
 .rock {
     background-image: url("images/pic4.jpg") !important;
     background-repeat: no-repeat !important;
@@ -22,10 +29,34 @@
     font-family: 'Livvic', sans-serif !important;
     font-size: medium !important;
     color:white !important;
-    text-align: center
+    text-align: left !important;
 }
 
 .lead-center {
     text-align: center !important;
     color: #fff !important;
+}
+
+a.nav-link {
+    color: #F99Faa !important;
+    font-family: 'Open Sans', sans-serif !important;
+font-family: 'Roboto', sans-serif !important;
+font-weight: normal !important;
+}
+
+.my-badge {
+    
+    font-size: xx-small !important;
+    background-color: cyan !important;
+}
+
+body {
+    font-family: 'Livvic', sans-serif !important;
+}
+
+
+
+
+.my-footer {
+    background-color: #F99 !important;
 }

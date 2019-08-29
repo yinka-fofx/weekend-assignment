@@ -62,8 +62,8 @@ h3 { color: #F99Faa !important;
     font-family: 'Lexend Deca', sans-serif !important;
     font-size: small !important;
     /* text-align: justify !important; */
-    text-decoration: 
-
+    
+    
 }
 .text {
     font-family: 'Lexend Deca', sans-serif !important;
@@ -214,11 +214,11 @@ font-weight: normal !important;
   transform: translate(-50%, -50%) !important;
 } */
 
-.centered {
+/* .centered {
     position: absolute;
     top: 30%;
     left: 40%;
-    transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important; */
 }
 
 .my-badge {
@@ -257,4 +257,20 @@ font-size: medium !important;
     width: 50px !important;
     height: 50px !important;
 }
+
+
+
+/* .bg1 {
+    background-color: #fff !important; */
+
+
+
+    .my-badge {
+    
+        font-size: xx-small !important;
+        background-color: cyan !important;
+    }
+
+
+
 
