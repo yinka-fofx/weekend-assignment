@@ -6,13 +6,17 @@ height: 40px !important;
 
 
 #top-nav {background-color: #F99 !important;
-    padding: 5px !important;
+    /* padding: 5px !important; */
 
+}
+
+.activee:hover {
+    background-color: red !important;
 }
 
 #top-nav p {
     color: #fff !important;;
-    margin: 5px 0 0 150px !important;
+    /* margin: 5px 0 0 150px !important; */
 }
 
 
@@ -190,10 +194,12 @@ h6 {
 }
 
 a.nav-link {
-    color: #F99Faa !important;
+    /* color: #F99Faa !important; */
     font-family: 'Open Sans', sans-serif !important;
 font-family: 'Roboto', sans-serif !important;
 font-weight: normal !important;
+/* outline: 2px white !important; */
+color: black !important;
 }
 
 .csc {
@@ -268,9 +274,14 @@ font-size: medium !important;
     .my-badge {
     
         font-size: xx-small !important;
-        background-color: cyan !important;
+        background-color: #F99Faa !important;
     }
 
 
 
+
+.my-form {
+float: right !important;
+
+}
 

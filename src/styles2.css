@@ -50,16 +50,18 @@ body {
 }
 
 a.nav-link {
-    color: #F99Faa !important;
+    /* color: #F99Faa !important; */
     font-family: 'Open Sans', sans-serif !important;
 font-family: 'Roboto', sans-serif !important;
 font-weight: normal !important;
+/* outline: 2px white !important; */
+color: black !important;
 }
 
 .my-badge {
     
     font-size: xx-small !important;
-    background-color: cyan !important;
+    background-color: #F99 !important;
 }
 
 .my-footer {
